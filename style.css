@@ -1,0 +1,22 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.container {
+    max-width: 1170px;
+    height: 3300px;
+    margin: 0 auto;
+    padding: 135px 210px;
+    asd
+}
+
+body {
+	background: linear-gradient(#0C4E75, #C9E8F8);
+}
+
+.container h1 a img{
+	width: 357px;
+	height: 117px;
+}
+
