@@ -3,19 +3,77 @@
 	padding: 0;
 }
 
+@font-face {
+	font-family:"RotondaC";
+	src:url("fonts/Rotonda/RotondaC.ttf");
+	src:url("fonts/Rotonda/RotondaC-Bold.ttf");
+}
+
 .container {
-    max-width: 1170px;
-    height: 3300px;
+	display: flex;
+	align-items: : center;
+	justify-content: space-between;
+    width: 1460px;
     margin: 0 auto;
-    padding: 135px 210px;
+    padding: 135px 0;
 }
 
 body {
 	background: linear-gradient(#0C4E75, #C9E8F8);
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
-.container h1 a img{
+.logo a img{
 	width: 357px;
 	height: 117px;
 }
 
+.tel{
+	color: #fff;
+	font-weight: bold;
+	font-family: "RotondaC";
+	line-height: 52px;
+	font-size: 47px;
+	text-align: center;
+}
+
+.tel img{
+	display: block;
+	float: left;
+	width: 50px;
+	margin: 5px 20px 0 0;
+}
+
+.tel span{
+	float: left;
+}
+
+.tel::after{
+	background-image: url("img/call.png");
+}
+
+.but_usl{
+	background: #C7462C;
+	border-radius: 25px;
+	width: 430px;
+	height: 90px;
+	margin-top: 10px;
+}
+
+.but_usl a{
+	font-family: "RotondaC";
+	font-weight: bold;
+	line-height: 90px;
+	text-align: center;
+	display: block;
+	font-size: 45px;
+	color: #FFF;
+	text-decoration: none;
+}
+
+.content img{
+	display: block;
+	margin-left: auto;
+    margin-right: auto;
+}
